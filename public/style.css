@@ -351,9 +351,10 @@ footer .btn{
     left:80%;
     margin: 0 20px;
     background: none;
-    border: 3px solid rgb(7, 58, 7);
+    border: none;
+    /* border: 1px solid rgb(7, 58, 7); */
     color: rgb(8, 77, 8);
-    padding:5px;
+    padding:4px;
     border-radius: 50%;
     box-shadow: 3px 3px 30px black;
     z-index: 9099;
