@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Outfit,Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: lightblue;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    background: rgb(103, 144, 137);
+    min-width: 300px;
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgb(80, 79, 79);
+}
+
+main form{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-evenly;
+}
+
+main form .form__content{
+    margin: 14px 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .form__content *{
+    width: 100%;
+    padding: 1em;
+}
+
+
+input[type="email"],
+input[type="password"]
+{
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 1em;
+}
+
+form :nth-child(3){
+    gap: 3px;
+}
+
+form :nth-child(3) *{
+    cursor: pointer;
+     border: none;
+    border-radius: 10px;
+     color: white;
+     transition: .5s ease;
+}
+
+form :nth-child(3)>*:active{
+    transform: scale(0.9);
+}
+
+form :nth-child(3) button{
+    background: rgb(255, 69, 69);
+}
+
+input[type='submit']{
+    background: rgb(69, 95, 69);
+}
